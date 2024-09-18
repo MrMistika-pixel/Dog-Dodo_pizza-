@@ -1,0 +1,174 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Black.ttf);
+}
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+.btn{
+    font-weight: 500;
+    font-size: 12;
+    text-align: center;
+    padding: 9px 9px;
+    border-radius: 8px;
+    background-color: #F2726F;
+    color: #FFF;
+    width: auto;
+}
+body{
+    font-family: Roboto;
+}
+a{
+    text-decoration: none;
+}
+.conteiner{
+    margin: 0 210px;
+}
+.preview{
+    height: 800px;
+    width: auto;
+    background: url(../img/bg-main.svg) no-repeat center center/cover ;
+    &__wrap{
+        padding-top: 280px;
+    }
+    &__title{
+        font-weight: 900;
+        font-size: 56px;
+        color: #FFF;
+        max-width: 583px;
+        margin-bottom: 48px;
+    }
+}
+.info{
+    &__wrap{
+        padding-left: 90px;
+        margin-top: -160px;
+        position:relative;
+        background-color: #5D62B5;   
+        height: 700px;
+        width: 1020px;
+        border-radius: 40px;     
+    }
+    &__text-block{
+        font-family: Roboto;
+        color: #FFF;
+    }
+    &__title{
+        align-items: center;
+        display: flex;
+        margin-top: 100px;
+        font-weight: 700;
+        font-size: 12px;
+    }
+    &__text{
+        max-width: 583px;
+        margin-top: 33px;
+        font-weight: 900;
+        font-size: 36px;
+    }
+    &__sub-text{
+        max-width: 846px;
+        margin-top: 37px;
+        font-weight: 400;
+        font-size: 16px;
+    }
+    &__imgs{
+        position: absolute;
+    }
+    &__img-blob{
+        top: -70px;
+    }
+    &__img-dog{
+        position: absolute;
+        top: 70px;
+        border-radius: 40px;
+        left: -670px;
+    }
+    &__img-circles{
+        position: absolute; 
+        top: -430px;
+        left: 150px;
+    }
+}
+.promises{
+    &__title{
+        font-size: 12px;
+        font-weight: 700;
+        margin-top: 160px;
+        display: flex;
+        align-items: center;
+        color: #5D62B5;
+    }
+    &__sub-title{
+        margin-top: 33px;
+        font-weight: 900;
+        font-size: 36px;
+    }
+    &__card-title{
+        font-weight: 900;
+        font-size: 19px;
+        color: #F2726F;
+    }
+    &__wrap{
+        align-items:flex-start; //Блоки прижаты к началу поперечной (вертикальной) оси
+        margin-top: 68px;
+        display: flex;
+        gap: 23px;
+    }
+    &__cards{
+        gap: 24px;
+        display: flex;
+        margin-top: 20px;
+        max-height: 148px;
+        
+    }
+    &__text-block{
+        color: #4B4B4B;
+        font-size: 16px;
+        font-weight: 400;
+        margin-top: 20px;
+    }
+
+}
+.dog{ //Davletov__Alan_D
+    width: auto;
+    height: 500px;
+    margin-top: 150px;
+    background-color: #29C3BE;
+    &__blob{
+       position:relative;
+       top: -70px;
+       left: -500px;
+    }
+    &__circles{
+        position: relative;
+        left:-200px;  
+        bottom: -100px; 
+    }
+    &__dog{
+        z-index: 3;
+        position: relative;
+        top: -330px;
+        left: -50px;
+    }
+    &__line{
+        position: relative;
+        top: -700px;
+        right: -520px;
+    }
+    &__tenis{
+        position: relative;
+        top: -780px;
+        right: -450px;
+    }
+}
